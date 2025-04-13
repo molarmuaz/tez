@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tez/static/css/main.e3cd09ff.css",
+    "main.js": "/tez/static/js/main.b7b2ac1f.js",
+    "static/js/453.92d29023.chunk.js": "/tez/static/js/453.92d29023.chunk.js",
+    "index.html": "/tez/index.html",
+    "main.e3cd09ff.css.map": "/tez/static/css/main.e3cd09ff.css.map",
+    "main.b7b2ac1f.js.map": "/tez/static/js/main.b7b2ac1f.js.map",
+    "453.92d29023.chunk.js.map": "/tez/static/js/453.92d29023.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3cd09ff.css",
+    "static/js/main.b7b2ac1f.js"
+  ]
+}
