@@ -1,6 +1,6 @@
 import React from 'react';
 import { Bell, Bus, Calendar, Home, Map, MapPin, Users, UserPlus, LogOut, User, Settings, CreditCard, AlertTriangle } from 'lucide-react';
-import SidebarItem from '../components/SidebarItem';
+import SidebarItem from '../components/SidebarItem.js';
 
 const DashboardLayout = ({ children, navigateTo, userRole, activeTab, setActiveTab }) => (
   <div className="flex h-screen bg-gray-50">

@@ -28,7 +28,7 @@ const StudentDashboard = ({ activeTab }) => {
 // Dashboard Home
 const StudentHome = () => (
   <div>
-    <h3 className="text-2xl font-medium mb-6">Welcome, Alex!</h3>
+    <h3 className="text-2xl font-medium mb-6">Welcome, Ali Kamran!</h3>
     
     <div className="bg-white p-6 rounded-lg shadow-sm mb-6">
       <h4 className="text-lg font-medium mb-4">Today's Schedule</h4>
