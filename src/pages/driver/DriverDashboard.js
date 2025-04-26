@@ -21,7 +21,7 @@ const DriverDashboard = ({ activeTab }) => {
 // Driver Dashboard Home
 const DriverHome = () => (
   <div>
-    <h3 className="text-2xl font-medium mb-6">Welcome, Driver!</h3>
+    <h3 className="text-2xl font-medium mb-6">Welcome, Driver Ali!</h3>
     <div className="bg-white p-6 rounded-lg shadow-sm">
       <h4 className="text-lg font-medium mb-4">Today's Assignment</h4>
       <div className="flex items-center space-x-4">
