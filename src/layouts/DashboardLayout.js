@@ -111,14 +111,15 @@ const SidebarContent = ({ userRole, activeTab, setActiveTab }) => {
         <SidebarItem 
           icon={<Bell size={20} />} 
           label="Send Notifications" 
-          active={activeTab === 'notifications'} 
-          onClick={() => setActiveTab('notifications')} 
+          active={activeTab === 'sendNotification'} 
+          onClick={() => setActiveTab('sendNotification')} 
         />
+
         <SidebarItem 
           icon={<Bus size={20} />} 
           label="Assign Buses" 
-          active={activeTab === 'buses'} 
-          onClick={() => setActiveTab('buses')} 
+          active={activeTab === 'assignBus'} 
+          onClick={() => setActiveTab('assignBus')} 
         />
         <SidebarItem 
           icon={<Users size={20} />} 

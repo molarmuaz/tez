@@ -39,7 +39,7 @@ const StudentHome = () => (
         <div>
           <p className="text-gray-600">Morning Pickup</p>
           <p className="text-xl font-medium text-gray-800">7:15 AM</p>
-          <p className="text-gray-500 text-sm">Route: North Campus</p>
+          <p className="text-gray-500 text-sm">Route: FAST NUCES through Express Way</p>
         </div>
       </div>
       <div className="flex items-center space-x-4 mt-4">
@@ -49,7 +49,7 @@ const StudentHome = () => (
         <div>
           <p className="text-gray-600">Evening Drop-off</p>
           <p className="text-xl font-medium text-gray-800">4:30 PM</p>
-          <p className="text-gray-500 text-sm">Route: North Campus</p>
+          <p className="text-gray-500 text-sm">Route: Bahria Town Phase 1-6 through Express Way</p>
         </div>
       </div>
     </div>
@@ -60,7 +60,7 @@ const StudentHome = () => (
         <div className="space-y-3">
           <div className="p-3 bg-gray-50 rounded-md flex items-center text-teal-500 hover:bg-teal-50 cursor-pointer">
             <Bus size={20} className="mr-2" />
-            <span>View Today's Bus Route</span>
+            <span onClick={BusRoutes}>View Today's Bus Route</span>
           </div>
           <div className="p-3 bg-gray-50 rounded-md flex items-center text-teal-500 hover:bg-teal-50 cursor-pointer">
             <Clock size={20} className="mr-2" />
